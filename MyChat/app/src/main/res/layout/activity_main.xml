@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/lyt_title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layoutChat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/ivChat"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ic_chat"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tvUnReadMsgCount"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignRight="@id/ivChat"
+                android:layout_marginRight="-10dp"
+                android:background="@drawable/unread_count_bg"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutContact"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/ivContact"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ic_contact_gray"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tvUnReadContactCount"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignRight="@id/ivContact"
+                android:layout_marginRight="-10dp"
+                android:background="@drawable/unread_count_bg"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutDongtai"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/ivDongtai"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ic_dongtai_gray"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/unReadDongtai"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignRight="@id/ivDongtai"
+                android:layout_marginRight="-4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/unread_count_bg"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutSet"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivSet"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:background="@mipmap/ic_set_gray"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.view.MyTabView
+        android:id="@+id/myTabView"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        app:bottomColor="#808080"
+        app:color="#000000" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/lyt_return" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/etQuery"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/an_et_query"
+            android:hint="@string/addFriendQueryHint" />
+
+        <ImageButton
+            android:id="@+id/btnQuery"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignRight="@id/etQuery"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@mipmap/ic_query"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CDCDCD"
+        android:padding="4dp"
+        android:text="@string/addRecord" />
+
+    <ListView
+        android:id="@+id/lvAddFriend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#c7c6c6"
+        android:dividerHeight="1dp"
+        android:padding="4dp"></ListView>
+</LinearLayout>

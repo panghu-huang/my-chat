@@ -52,6 +52,20 @@
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/main-1.png)
 
+返回桌面之后用另一台发送消息:
+
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/notification.png)
+
+退出登录后用另一台发消息：
+
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/u read message.png)
+
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/unReadMessage-1.png)
+
+用另一台登录这个账号：
+
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/remote_login.png)
+
 服务器端：
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/server.png)

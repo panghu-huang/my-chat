@@ -34,10 +34,6 @@
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/contact.png)
 
-接受后另一台虚拟机:
-
-![image](https://github.com/hzj444172954/MyChat/blob/master/images/add_friend-4.png)
-
 好友详情：
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/friend_info.png)
@@ -58,7 +54,7 @@
 
 退出登录后用另一台发消息：
 
-![image](https://github.com/hzj444172954/MyChat/blob/master/images/u read message.png)
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/un%20read%20message.png)
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/unReadMessage-1.png)
 

@@ -10,6 +10,10 @@
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/login.png)
 
+主界面与通讯录好友聊天：
+
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/main.png)
+
 用另一台虚拟机添加好友:
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/add_friend.png)
@@ -29,6 +33,10 @@
 接收后:
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/contact.png)
+
+接受后另一台虚拟机:
+
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/add_friend-4.png)
 
 好友详情：
 

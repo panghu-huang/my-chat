@@ -46,11 +46,11 @@
 
 ![image](https://github.com/hzj444172954/MyChat/blob/master/images/chat1.png)
 
-![image](https://github.com/hzj444172954/MyChat/blob/master/images/chat2.png)
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/chat-2.png)
 
 返回主界面：
 
-![image](https://github.com/hzj444172954/MyChat/blob/master/images/main1.png)
+![image](https://github.com/hzj444172954/MyChat/blob/master/images/main-1.png)
 
 服务器端：
 
